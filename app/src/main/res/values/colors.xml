@@ -3,4 +3,10 @@
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
+    <color name="colorBackground">#9Ad1d4</color>
+    <color name="colorButtons">#007EA7</color>
+    <color name="colorTextButtons">#FFFFFF</color>
+    <color name="colorLogo">#003249</color>
+    <color name="colorFacebook">#00A6FF</color>
+    <color name="colorGoogle">#F95F62</color>
 </resources>
