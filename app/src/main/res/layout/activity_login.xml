@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity">
+    tools:context=".LoginActivity"
+    android:background="@color/colorBackground">
 
     <ImageView
         android:id="@+id/imageViewLogo"
@@ -14,7 +15,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toStartOf="@+id/textInputLayoutUsuario"
         app:srcCompat="@drawable/logo" />
 
     <com.google.android.material.textfield.TextInputLayout
@@ -62,18 +62,22 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textInputLayoutSenha"
         app:layout_constraintBottom_toBottomOf="@+id/textViewCadastro" />
-    <TextView
-        android:id="@+id/textViewCadastro"
+
+    <Button
+
+        android:id="@+id/cadastro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ainda não tem conta? Cadastre-se aqui!\nOu"
-        android:textColor="@color/colorLogo"
-        android:textAlignment="center"
         android:layout_marginBottom="10dp"
-        app:layout_constraintStart_toStartOf="parent"
+        android:text="Ainda não tem conta? Cadastre-se aqui!\nOu"
+        android:textAlignment="center"
+        android:textColor="@color/colorLogo"
+        app:layout_constraintBottom_toTopOf="@+id/buttonLoginFacebook"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonLogin"
-        app:layout_constraintBottom_toTopOf="@+id/buttonLoginFacebook" />
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonLogin" />
+
     <Button
         android:id="@+id/buttonLoginFacebook"
         android:layout_width="match_parent"
@@ -85,7 +89,7 @@
         android:textColor="@color/colorTextButtons"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewCadastro"
+        app:layout_constraintTop_toBottomOf="@+id/cadastro"
         app:layout_constraintBottom_toTopOf="@+id/buttonLoginGoogle" />
     <Button
         android:id="@+id/buttonLoginGoogle"
