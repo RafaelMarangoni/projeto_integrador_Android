@@ -18,7 +18,7 @@
         android:layout_weight="1">
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/lista_favoritos_titulos_id"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -29,7 +29,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
-            android:id="@+id/imageView3"
+            android:id="@+id/lista_favoritos_seta_voltar_id"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
@@ -39,17 +39,17 @@
             app:srcCompat="@drawable/ic_arrow_back_sob_pressao_24dp" />
 
         <com.google.android.material.textfield.TextInputLayout
-
+            android:id="@+id/lista_favoritos_box_pais_id"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView">
+            app:layout_constraintTop_toBottomOf="@+id/lista_favoritos_titulos_id">
 
 
             <AutoCompleteTextView
-                android:id="@+id/autoCompleteTextView2"
+                android:id="@+id/lista_favoritos_pais_id"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/lista_dos_seus_times_favoritos" />
@@ -67,12 +67,13 @@
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp">
 
+
+
     </LinearLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
         android:layout_weight="1">
 
 

@@ -14,4 +14,11 @@ Quem manda na minha terra sou euzis! Manduma pindureta quium dia nois paga. Admo
  </string>
     <string name="escudo">escudo:</string>
     <string name="camisa">camisa:</string>
+    <string name="estadio">estadio:</string>
+    <string name="favoritos">Favoritos</string>
+    <string name="subtitulo_time_favorito">Escolha o seu time favorito</string>
+    <string name="pais">Brasil</string>
+    <string name="liga">Brasileirão</string>
+    <string name="escolha_o_pais">Escolha o País</string>
+    <string name="escolha_a_liga">Escolha a Liga</string>
 </resources>

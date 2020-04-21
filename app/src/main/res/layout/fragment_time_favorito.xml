@@ -22,7 +22,7 @@
                 android:id="@+id/fragment_time_favorito_nome_id"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="SPFC"
+                android:text="São Paulo F. C."
                 android:textSize="40sp"
                 android:textAlignment="center"
                 android:textColor="@color/colorTexts"
@@ -34,6 +34,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/info_time1"
+                android:textSize="20sp"
                 android:textAlignment="gravity"
                 android:textColor="@color/colorTexts"
                 app:layout_constraintTop_toBottomOf="@id/fragment_time_favorito_nome_id"
@@ -45,6 +46,7 @@
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:text="@string/escudo"
+                android:textSize="20sp"
                 android:textAllCaps="true"
                 android:textAlignment="center"
                 app:layout_constraintEnd_toEndOf="@+id/fragment_time_favorito_escudo_time_id"
@@ -55,6 +57,7 @@
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:text="@string/camisa"
+                android:textSize="20sp"
                 android:textAllCaps="true"
                 android:textAlignment="center"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -78,18 +81,39 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/fragment_time_favorito_desc_camisa_time_id"
                 app:layout_constraintBottom_toTopOf="@id/fragment_time_favorito_info2_id"
-
                 />
             <TextView
                 android:id="@+id/fragment_time_favorito_info2_id"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/info_time2"
+                android:textSize="20sp"
                 android:textAlignment="gravity"
                 android:textColor="@color/colorTexts"
                 app:layout_constraintTop_toBottomOf="@id/fragment_time_favorito_camisa_time_id"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"/>
+            <TextView
+                android:id="@+id/fragment_time_favorito_estadio_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/estadio"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:textColor="@color/colorTexts"
+                android:textAllCaps="true"
+                app:layout_constraintTop_toBottomOf="@id/fragment_time_favorito_info2_id"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"/>
+            <ImageView
+                android:id="@+id/fragment_time_favorito_estadio_time_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/time_estadio"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/fragment_time_favorito_estadio_id"
+                app:layout_constraintStart_toStartOf="parent"
+                />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
