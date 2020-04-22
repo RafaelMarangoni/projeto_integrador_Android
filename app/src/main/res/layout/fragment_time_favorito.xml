@@ -25,7 +25,7 @@
                 android:text="São Paulo F. C."
                 android:textSize="40sp"
                 android:textAlignment="center"
-                android:textColor="@color/colorTexts"
+                android:textColor="@color/colorGreyStrong"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"/>
@@ -36,7 +36,7 @@
                 android:text="@string/info_time1"
                 android:textSize="20sp"
                 android:textAlignment="gravity"
-                android:textColor="@color/colorTexts"
+                android:textColor="@color/colorGreyStrong"
                 app:layout_constraintTop_toBottomOf="@id/fragment_time_favorito_nome_id"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"/>
@@ -89,7 +89,7 @@
                 android:text="@string/info_time2"
                 android:textSize="20sp"
                 android:textAlignment="gravity"
-                android:textColor="@color/colorTexts"
+                android:textColor="@color/colorGreyStrong"
                 app:layout_constraintTop_toBottomOf="@id/fragment_time_favorito_camisa_time_id"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"/>
@@ -100,7 +100,7 @@
                 android:text="@string/estadio"
                 android:textSize="20sp"
                 android:textAlignment="center"
-                android:textColor="@color/colorTexts"
+                android:textColor="@color/colorGreyStrong"
                 android:textAllCaps="true"
                 app:layout_constraintTop_toBottomOf="@id/fragment_time_favorito_info2_id"
                 app:layout_constraintStart_toStartOf="parent"
