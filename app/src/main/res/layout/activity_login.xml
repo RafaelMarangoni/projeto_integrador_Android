@@ -15,7 +15,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo" />
+        app:srcCompat="@drawable/logo"
+        android:textColorHint="@color/colorTextButtons"/>
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayoutUsuario"
@@ -46,7 +47,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Usuário ou E-mail" />
+            android:hint="Senha" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
@@ -61,7 +62,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textInputLayoutSenha"
-        app:layout_constraintBottom_toBottomOf="@+id/textViewCadastro" />
+        app:layout_constraintBottom_toBottomOf="@+id/cadastro" />
 
     <Button
 
@@ -74,9 +75,9 @@
         android:textColor="@color/colorLogo"
         app:layout_constraintBottom_toTopOf="@+id/buttonLoginFacebook"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonLogin" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonLogin"
+        android:background="@color/colorBackground"/>
 
     <Button
         android:id="@+id/buttonLoginFacebook"

@@ -11,6 +11,8 @@
         android:theme="@style/AppTheme">
         <activity android:name=".ProcurarFavoritosActivity"></activity>
         <activity android:name=".ListaFavoritosActivity" />
+        <activity android:name=".PerguntaActivity"></activity>
+        <activity android:name=".RegrasActivity" />
         <activity android:name=".MainActivity" />
         <activity android:name=".CadastroActivity" />
         <activity android:name=".LoginActivity" />
