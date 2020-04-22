@@ -8,7 +8,7 @@
     android:background="@color/colorBackground">
 
     <ImageView
-        android:id="@+id/imageAvatar"
+        android:id="@+id/MainActivity_imageAvatar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
@@ -16,11 +16,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toTopOf="@+id/textViewBemVindo"
+        app:layout_constraintBottom_toTopOf="@+id/MainActivity_textViewBemVindo"
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
-        android:id="@+id/textViewBemVindo"
+        android:id="@+id/MainActivity_textViewBemVindo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="BEM VINDO USUÁRIO!"
@@ -29,11 +29,11 @@
         android:textColor="@color/colorGreyFaint"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageAvatar"
-        app:layout_constraintBottom_toTopOf="@+id/textViewMedia" />
+        app:layout_constraintTop_toBottomOf="@+id/MainActivity_imageAvatar"
+        app:layout_constraintBottom_toTopOf="@+id/MainActivity_textViewMedia" />
 
     <TextView
-        android:id="@+id/textViewMedia"
+        android:id="@+id/MainActivity_textViewMedia"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Média de acertos: 5.1"
@@ -42,67 +42,71 @@
         android:textColor="@color/colorGreyStrong"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewBemVindo"
-        app:layout_constraintBottom_toTopOf="@+id/buttonCompartilhar" />
+        app:layout_constraintTop_toBottomOf="@+id/MainActivity_textViewBemVindo"
+        app:layout_constraintBottom_toTopOf="@+id/MainActivity_buttonCompartilhar" />
 
     <Button
-        android:id="@+id/buttonCompartilhar"
+        android:id="@+id/MainActivity_buttonCompartilhar"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_marginBottom="20dp"
         android:layout_marginHorizontal="20dp"
         android:background="@color/colorButtons"
         android:textColor="@color/colorTextButtons"
-        android:text="Compartilhar"
+        android:text="@string/compartilhar"
         android:textSize="30dp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewMedia"
-        app:layout_constraintBottom_toTopOf="@+id/buttonRegras" />
+        app:layout_constraintTop_toBottomOf="@+id/MainActivity_textViewMedia"
+        app:layout_constraintBottom_toTopOf="@+id/MainActivity_buttonRegras" />
 
     <Button
-        android:id="@+id/buttonRegras"
+        android:id="@+id/MainActivity_buttonRegras"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_marginBottom="20dp"
         android:layout_marginHorizontal="20dp"
         android:background="@color/colorButtons"
         android:textColor="@color/colorTextButtons"
-        android:text="Regras"
+        android:text="@string/regras"
         android:textSize="30dp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonCompartilhar"
-        app:layout_constraintBottom_toTopOf="@+id/buttonJogar" />
+        app:layout_constraintTop_toBottomOf="@+id/MainActivity_buttonCompartilhar"
+        app:layout_constraintBottom_toTopOf="@+id/MainActivity_buttonJogar" />
 
     <Button
-        android:id="@+id/buttonJogar"
+        android:id="@+id/MainActivity_buttonJogar"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_marginBottom="20dp"
         android:layout_marginHorizontal="20dp"
         android:background="@color/colorButtons"
         android:textColor="@color/colorTextButtons"
-        android:text="Jogar"
+        android:text="@string/jogar"
         android:textSize="30dp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonRegras"
-        app:layout_constraintBottom_toTopOf="@+id/buttonTimesFavoritos" />
+        app:layout_constraintTop_toBottomOf="@+id/MainActivity_buttonRegras"
+        app:layout_constraintBottom_toTopOf="@+id/MainActivity_buttonTimesFavoritos" />
 
     <Button
-        android:id="@+id/buttonTimesFavoritos"
+        android:id="@+id/MainActivity_buttonTimesFavoritos"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_marginBottom="20dp"
         android:layout_marginHorizontal="20dp"
         android:background="@color/colorButtons"
         android:textColor="@color/colorTextButtons"
-        android:text="Times favoritos"
+        android:text="@string/times_favoritos"
         android:textSize="30dp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonJogar"
+        app:layout_constraintTop_toBottomOf="@+id/MainActivity_buttonJogar"
         app:layout_constraintBottom_toBottomOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

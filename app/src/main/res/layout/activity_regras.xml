@@ -8,67 +8,67 @@
     android:background="@color/colorBackground">
 
     <TextView
-        android:id="@+id/textViewRegras"
+        android:id="@+id/RegrasActivity_textViewRegras"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Regras"
+        android:text="@string/regras"
         android:textSize="40dp"
         android:textColor="@color/colorLogo"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toTopOf="@+id/textViewRegra1"/>
+        app:layout_constraintBottom_toTopOf="@+id/RegrasActivity_textViewRegra1"/>
 
     <TextView
-        android:id="@+id/textViewRegra1"
+        android:id="@+id/RegrasActivity_textViewRegra1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="20dp"
-        android:text="1 - Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusant doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis."
+        android:text="@string/regra1"
         android:layout_marginHorizontal="50dp"
         android:layout_marginVertical="20dp"
         app:layout_constraintStart_toStarttOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottonOf="@+id/textViewRegras"
-        app:layout_constraintBottom_toTopOf="@+id/textViewRegra2"/>
+        app:layout_constraintTop_toBottonOf="@+id/RegrasActivity_textViewRegras"
+        app:layout_constraintBottom_toTopOf="@+id/RegrasActivity_textViewRegra2"/>
 
     <TextView
-        android:id="@+id/textViewRegra2"
+        android:id="@+id/RegrasActivity_textViewRegra2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="20dp"
-        android:text="2 - Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusant doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis."
+        android:text="@string/regra2"
         android:layout_marginHorizontal="50dp"
         android:layout_marginVertical="20dp"
         app:layout_constraintStart_toStarttOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottonOf="@+id/textViewRegra1"
-        app:layout_constraintBottom_toTopOf="@+id/textViewRegra3"/>
+        app:layout_constraintTop_toBottonOf="@+id/RegrasActivity_textViewRegra1"
+        app:layout_constraintBottom_toTopOf="@+id/RegrasActivity_textViewRegra3"/>
 
     <TextView
-        android:id="@+id/textViewRegra3"
+        android:id="@+id/RegrasActivity_textViewRegra3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="20dp"
-        android:text="3 - Sed ut error sit voluptatem accusant doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis."
+        android:text="@string/regra3"
         android:layout_marginHorizontal="50dp"
         android:layout_marginVertical="20dp"
         app:layout_constraintStart_toStarttOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottonOf="@+id/textViewRegra2"
-        app:layout_constraintBottom_toTopOf="@+id/buttonJogar" />
+        app:layout_constraintTop_toBottonOf="@+id/RegrasActivity_textViewRegra2"
+        app:layout_constraintBottom_toTopOf="@+id/MainActivity_buttonJogar" />
 
     <Button
-        android:id="@+id/buttonJogar"
+        android:id="@+id/MainActivity_buttonJogar"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:text="Jogar"
+        android:text="@string/jogar"
         android:layout_marginVertical="20dp"
         android:background="@color/colorButtons"
         android:textColor="@color/colorTextButtons"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottonOf="@+id/textViewRegra3"
+        app:layout_constraintTop_toBottonOf="@+id/RegrasActivity_textViewRegra3"
         app:layout_constraintBottom_toBottomOf="parent" />
 
 
