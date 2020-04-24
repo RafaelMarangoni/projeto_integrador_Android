@@ -42,4 +42,12 @@ Quem manda na minha terra sou euzis! Manduma pindureta quium dia nois paga. Admo
     <string name="confirme_o_e_mail">Confirme o e-mail</string>
     <string name="digite_aqui_a_sua_senha">Digite aqui a sua senha</string>
     <string name="confirme_a_senha">Confirme a senha</string>
+
+    <string-array name="lista_times_favoritos">
+        <item>São Paulo Futebol Clube</item>
+        <item>SPFC</item>
+        <item>Tricolor do Morumbi</item>
+        <item>Tri-Mundial</item>
+        <item>Tri-Hexa Brasileiro</item>
+    </string-array>
 </resources>
