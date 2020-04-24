@@ -36,4 +36,10 @@ Quem manda na minha terra sou euzis! Manduma pindureta quium dia nois paga. Admo
     <string name="resposta_3">Resposta 3</string>
     <string name="resposta_2">Resposta 2</string>
     <string name="resposta_1">Resposta 1</string>
+    <string name="digite_aqui_seu_nome">Digite aqui seu nome</string>
+    <string name="digite_aqui_usuario">Digite aqui o nome do usuário</string>
+    <string name="digite_aqui_o_seu_e_mail">Digite aqui o seu E-mail</string>
+    <string name="confirme_o_e_mail">Confirme o e-mail</string>
+    <string name="digite_aqui_a_sua_senha">Digite aqui a sua senha</string>
+    <string name="confirme_a_senha">Confirme a senha</string>
 </resources>

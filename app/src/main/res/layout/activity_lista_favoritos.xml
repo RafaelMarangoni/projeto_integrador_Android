@@ -36,7 +36,8 @@
             android:layout_marginTop="10dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/ic_arrow_back_sob_pressao_24dp" />
+            app:srcCompat="@drawable/ic_arrow_back_sob_pressao_24dp"
+            />
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/lista_favoritos_box_pais_id"

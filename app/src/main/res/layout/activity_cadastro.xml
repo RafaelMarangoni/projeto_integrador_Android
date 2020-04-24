@@ -16,7 +16,7 @@
 
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/cadastro_imgLogo_id"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -28,13 +28,17 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp">
+        android:layout_marginEnd="20dp"
+        android:hint="@string/digite_aqui_seu_nome"
+        android:textColorHint="@color/colorGreyStrong">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/nome_id"
+            android:id="@+id/cadastro_nome_id"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Nome"
+            tools:text="Nome"
+            android:textColor="@color/colorGreyStrong"
+            android:backgroundTint="@color/colorLine"
             />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -43,13 +47,16 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp">
+        android:layout_marginEnd="20dp"
+        android:hint="@string/digite_aqui_usuario"
+        android:textColorHint="@color/colorGreyStrong">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/usuario_id"
+            android:id="@+id/cadastro_usuario_id"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Usuário"
+            android:textColor="@color/colorGreyStrong"
+            android:backgroundTint="@color/colorLine"
             />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -58,13 +65,16 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp">
+        android:layout_marginEnd="20dp"
+        android:hint="@string/digite_aqui_o_seu_e_mail"
+        android:textColorHint="@color/colorGreyStrong">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/email_id"
+            android:id="@+id/cadastro_email_id"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="E-mail"
+            android:textColor="@color/colorGreyStrong"
+            android:backgroundTint="@color/colorLine"
             />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -73,13 +83,16 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp">
+        android:layout_marginEnd="20dp"
+        android:hint="@string/confirme_o_e_mail"
+        android:textColorHint="@color/colorGreyStrong">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/conrfimaEmail_id"
+            android:id="@+id/cadastro_conrfimaEmail_id"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Confirme o e-mail"
+            android:textColor="@color/colorGreyStrong"
+            android:backgroundTint="@color/colorLine"
             />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -88,13 +101,16 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp">
+        android:layout_marginEnd="20dp"
+        android:hint="@string/digite_aqui_a_sua_senha"
+        android:textColorHint="@color/colorGreyStrong">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/senha_id"
+            android:id="@+id/cadastro_senha_id"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Senha"
+            android:textColor="@color/colorGreyStrong"
+            android:backgroundTint="@color/colorLine"
             />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -103,18 +119,22 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp">
+        android:layout_marginEnd="20dp"
+        android:hint="@string/confirme_a_senha"
+        android:textColorHint="@color/colorGreyStrong"
+        >
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/conrfimaSenha_id"
+            android:id="@+id/cadastro_conrfimaSenha_id"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Confirme a senha"
+            android:textColor="@color/colorGreyStrong"
+            android:backgroundTint="@color/colorLine"
             />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/buttonCadastrar_id"
+        android:id="@+id/cadastro_buttonCadastrar_id"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"

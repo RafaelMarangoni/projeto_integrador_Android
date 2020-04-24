@@ -8,7 +8,7 @@
     android:background="@color/colorBackground">
 
     <TextView
-        android:id="@+id/RegrasActivity_textViewRegras"
+        android:id="@+id/RegrasActivity_textViewregras"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/regras"
@@ -23,40 +23,40 @@
         android:id="@+id/RegrasActivity_textViewRegra1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="20dp"
-        android:text="@string/regra1"
         android:layout_marginHorizontal="50dp"
         android:layout_marginVertical="20dp"
-        app:layout_constraintStart_toStarttOf="parent"
+        android:text="@string/regra1"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/RegrasActivity_textViewRegra2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottonOf="@+id/RegrasActivity_textViewRegras"
-        app:layout_constraintBottom_toTopOf="@+id/RegrasActivity_textViewRegra2"/>
+        app:layout_constraintStart_toStartOf="parent"
+         />
 
     <TextView
         android:id="@+id/RegrasActivity_textViewRegra2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="20dp"
-        android:text="@string/regra2"
         android:layout_marginHorizontal="50dp"
         android:layout_marginVertical="20dp"
-        app:layout_constraintStart_toStarttOf="parent"
+        android:text="@string/regra2"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/RegrasActivity_textViewRegra3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottonOf="@+id/RegrasActivity_textViewRegra1"
-        app:layout_constraintBottom_toTopOf="@+id/RegrasActivity_textViewRegra3"/>
+        app:layout_constraintStart_toStartOf="parent"
+         />
 
     <TextView
         android:id="@+id/RegrasActivity_textViewRegra3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="20dp"
-        android:text="@string/regra3"
         android:layout_marginHorizontal="50dp"
         android:layout_marginVertical="20dp"
-        app:layout_constraintStart_toStarttOf="parent"
+        android:text="@string/regra3"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/MainActivity_buttonJogar"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottonOf="@+id/RegrasActivity_textViewRegra2"
-        app:layout_constraintBottom_toTopOf="@+id/MainActivity_buttonJogar" />
+        app:layout_constraintStart_toStartOf="parent"
+        />
 
     <Button
         android:id="@+id/MainActivity_buttonJogar"
@@ -68,7 +68,6 @@
         android:textColor="@color/colorTextButtons"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottonOf="@+id/RegrasActivity_textViewRegra3"
         app:layout_constraintBottom_toBottomOf="parent" />
 
 
