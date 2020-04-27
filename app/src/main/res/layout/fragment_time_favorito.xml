@@ -7,7 +7,6 @@
     tools:context=".TimeFavoritoFragment"
     android:background="@color/colorBackground">
 
-
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -16,7 +15,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-
 
             <TextView
                 android:id="@+id/fragment_time_favorito_nome_id"
@@ -112,9 +110,7 @@
                 android:src="@drawable/time_estadio"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/fragment_time_favorito_estadio_id"
-                app:layout_constraintStart_toStartOf="parent"
-                />
-
+                app:layout_constraintStart_toStartOf="parent"/>
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>

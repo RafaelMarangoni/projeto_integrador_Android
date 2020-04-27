@@ -9,15 +9,15 @@
 
     <ImageView
         android:id="@+id/MainActivity_imageAvatar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:layout_marginBottom="10dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="20dp"
+        android:adjustViewBounds="true"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toTopOf="@+id/MainActivity_textViewBemVindo"
-        tools:srcCompat="@tools:sample/avatars" />
+        app:srcCompat="@drawable/ninja" />
 
     <TextView
         android:id="@+id/MainActivity_textViewBemVindo"
